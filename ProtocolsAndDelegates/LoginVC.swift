@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginVC.swift
 //  ProtocolsAndDelegates
 //
 //  Created by 大石耕司 on 2019/06/09.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
 
+    @IBOutlet weak var userNameEntryTxt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func doneClicked(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }
-
