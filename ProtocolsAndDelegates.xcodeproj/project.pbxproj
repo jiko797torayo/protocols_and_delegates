@@ -13,6 +13,7 @@
 		EB2C97FF22ACB938005FF71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2C97FE22ACB938005FF71C /* Assets.xcassets */; };
 		EB2C980222ACB938005FF71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2C980022ACB938005FF71C /* LaunchScreen.storyboard */; };
 		EB2C980C22ACBBC5005FF71C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C980B22ACBBC5005FF71C /* LoginVC.swift */; };
+		EB2C980E22ACC1FF005FF71C /* LoginCompleteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C980D22ACC1FF005FF71C /* LoginCompleteDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB2C980122ACB938005FF71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB2C980322ACB938005FF71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB2C980B22ACBBC5005FF71C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EB2C980D22ACC1FF005FF71C /* LoginCompleteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCompleteDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB2C97F722ACB938005FF71C /* AppDelegate.swift */,
 				EB2C97F922ACB938005FF71C /* HomeVC.swift */,
 				EB2C980B22ACBBC5005FF71C /* LoginVC.swift */,
+				EB2C980D22ACC1FF005FF71C /* LoginCompleteDelegate.swift */,
 				EB2C97FB22ACB938005FF71C /* Main.storyboard */,
 				EB2C97FE22ACB938005FF71C /* Assets.xcassets */,
 				EB2C980022ACB938005FF71C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				EB2C97FA22ACB938005FF71C /* HomeVC.swift in Sources */,
 				EB2C97F822ACB938005FF71C /* AppDelegate.swift in Sources */,
 				EB2C980C22ACBBC5005FF71C /* LoginVC.swift in Sources */,
+				EB2C980E22ACC1FF005FF71C /* LoginCompleteDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
